@@ -4,7 +4,6 @@ import javax.imageio.ImageIO;
 
 public class Encoder {
     public static void encode(String imagePath, String message, String outputPath) throws Exception {
-        //System.out.println(imagePath);
         BufferedImage img = ImageIO.read(new File(imagePath));
         int width = img.getWidth(), height = img.getHeight();
         int msgIndex = 0, msgLength = message.length();
