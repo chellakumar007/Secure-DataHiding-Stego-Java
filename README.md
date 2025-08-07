@@ -28,6 +28,8 @@ A powerful, cleanly structured Java-based tool to **hide and extract secret mess
 
 ## 📁 Project Structure
 
+```
+
 Secure-DataHiding-Stego-Java/
 ├── backend/
 │   ├── pom.xml
@@ -55,6 +57,9 @@ Secure-DataHiding-Stego-Java/
 │       └── favicon.png
 │
 └── README.md
+
+````
+
 ---
 
 ## 🧑‍💻 How to Run the Project
