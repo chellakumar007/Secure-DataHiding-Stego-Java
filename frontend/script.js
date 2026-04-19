@@ -1,4 +1,4 @@
-const backendURL = "http://localhost:8080/api"; // Update if your backend is hosted elsewhere
+const backendURL = "https://secure-datahiding-stego-java-backend.onrender.com/api";
 
 async function encode() {
   const image = document.getElementById("encodeImage").files[0];
