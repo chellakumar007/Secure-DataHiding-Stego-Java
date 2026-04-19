@@ -10,6 +10,8 @@ async function encode() {
     return;
   }
 
+  document.getElementById("encodeStatus").innerText = "⏳ Encoding... please wait";
+  
   const formData = new FormData();
   formData.append("image", image);
   formData.append("message", message);
