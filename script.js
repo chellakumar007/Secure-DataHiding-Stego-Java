@@ -49,6 +49,8 @@ async function decode() {
     return;
   }
 
+  document.getElementById("decodeResult").innerText = "⏳ Decoding... please wait";
+  
   const formData = new FormData();
   formData.append("image", image);
   formData.append("passcode", passcode);
